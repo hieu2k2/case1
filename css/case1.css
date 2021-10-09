@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "poppins" sans-serif;
+}
+#banner {
+  background-image: url(https://shopdungcutoc.com/wp-content/uploads/2020/05/barbershop-6.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo {
+  width: 100px;
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  border-radius: 50%;
+}
+.lg {
+  font-size: 50px;
+  position: absolute;
+  top: 50px;
+  left: 260px;
+}
+.mid1 {
+  text-align: center;
+  color: white;
+  padding-top: 180px;
+}
+.mid1 h1 {
+  font-size: 130px;
+}
+.mid1 p {
+  font-size: 20px;
+  font-style: italic;
+}
+.bot1 {
+  margin: 70px auto 0;
+}
+.bot1 a {
+  width: 200px;
+  height: 20px;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  border: 0.5px solid #fff;
+  transition: color 0.5s;
+  margin: 0 10px;
+  padding: 12px 0;
+  z-index: 1;
+}
+.bot1 a span {
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: -1;
+  transition: 0.5s;
+}
+.bot1 a:hover {
+  color: black;
+}
+.bot1 a:hover span {
+  width: 100%;
+}
+#t2 {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSEyApfu1lzJWwgXJeeW49YhwRSopEwrHX-g&usqp=CAU);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.logo2 {
+  width: 100px;
+  position: relative;
+  top: 50px;
+  left: 48%;
+  border-radius: 50%;
+}
+#t2 h1 {
+  font-size: 70px;
+  color: black;
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+
+.top2 {
+  width: 100%;
+  height: 200px;
+}
+.l2 {
+  width: 50%;
+  height: 500px;
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  color: black;
+}
+.tb1 td {
+  text-align: left;
+  width: 50px;
+  height: 50px;
+}
+.d11 {
+  color: green;
+}
+.ar2 {
+  width: 300px;
+  height: 500px;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+#t3 {
+  background-image: url(https://1.bp.blogspot.com/-hN0NCoAmEDY/X8z1OcRjXmI/AAAAAAAAlc0/hHqbHzqOPhIABiVomzpYacPeEufV816QQCNcBGAsYHQ/s0/hinh-nen-may-cuc-dep.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110vh;
+}
+#t3 h1 {
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+.t3-box {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 150px;
+}
+.single-t3 {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: rgb(109, 83, 224);
+  position: relative;
+}
+.single-t3 img {
+  width: 588px;
+  height: 300px;
+}
+.single-t3 img {
+  width: 100%;
+  border-radius: 7px;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: rgb(34, 33, 33);
+  opacity: 0;
+  transition: 1s;
+}
+.single-t3:hover .overlay {
+  opacity: 1;
+}
+.desc {
+  width: 80%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+hr {
+  background: #fff;
+  height: 2px;
+  border: 0;
+  margin: 15px auto;
+  width: 60%;
+}
+.desc p {
+  font-size: 14px;
+}
+.single-t3:hover .desc {
+  bottom: 40%;
+  opacity: 1;
+}
+#t4 {
+  background-image: url(https://msmobile.com.vn/upload_images/images/hinh-nen-dep-cho-may-tinh-full-hd-2.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110vh;
+}
+#t4 h1 {
+  font-size: 70px;
+  text-align: center;
+  position: relative;
+  top: 55px;
+}
+
+.t4-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.t4-col {
+  margin-top: 200px;
+  flex-basis: 28%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px cornsilk;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.t4-col p {
+  font-size: 14px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+.user img {
+  width: 40px;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+.user-info .bi {
+  margin-left: 10px;
+  font-size: 20px;
+  color: green;
+}
+.user-info small {
+  color: green;
+}
+.t4-col:hover {
+  transform: translateY(7px);
+}
+#t5 {
+  background-image: url(https://gamek.mediacdn.vn/zoom/220_160/133514250583805952/2020/1/16/1-15791579653801179133828.png);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 110vh;
+}
+.t5top {
+  width: 100%;
+  height: 30vh;
+}
+.logo5 {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin-top: 100px;
+  position: relative;
+  left: 48%;
+}
+.t5mid {
+  width: 100%;
+  height: 60vh;
+}
+.ml {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.mr {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.tb5 {
+  margin: 200px 50px 100px 200px;
+}
+.tb5 td {
+  height: 50px;
+}
+.td5 {
+  width: 40px;
+  text-align: center;
+}
+.td5r {
+  margin: 200px 50px 100px 200px;
+  text-align: right;
+}
+.td5r td {
+  height: 50px;
+}
+.cuoi td {
+  width: 50px;
+  height: 50px;
+}
+.cuoi {
+  margin: 50px 50px 100px 45%;
+}
+.cuoi td:hover {
+  color: rgb(255, 0, 0);
+}
